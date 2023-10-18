@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 
 # Load the preprocessor and the XGBoost model
-preprocessor = joblib.load(r"C:\Users\IKE\OneDrive - Azubi Africa\Project1\P4-SalesSense-Interactive-Sales-Forecasting-Web-Application\src\model\preprocessor.joblib")
-model = joblib.load(r"C:\Users\IKE\OneDrive - Azubi Africa\Project1\P4-SalesSense-Interactive-Sales-Forecasting-Web-Application\src\model\xgb_model.joblib")
+preprocessor = joblib.load(r"C:\Users\IKE\OneDrive - Azubi Africa\Project1\SalesOracle\model\preprocessor.joblib")
+model = joblib.load(r"C:\Users\IKE\OneDrive - Azubi Africa\Project1\SalesOracle\model\xgb_model.joblib")
 
 
 # Define a function to preprocess and predict sales
