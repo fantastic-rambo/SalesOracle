@@ -8,7 +8,7 @@ from components.new_pred_form import new_pred_form
 from components.sidebar import sidebar
 
 # Set page title and layout
-st.set_page_config(page_title="SalesSense Prediction", layout="wide")
+st.set_page_config(page_title="SalesOracle Prediction", layout="wide")
 
 # Apply the function to override default padding
 override_app_padding()
